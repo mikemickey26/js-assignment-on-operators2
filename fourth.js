@@ -11,16 +11,16 @@
      * 
      */
 
- function drip(rate){
+ function driprate(){
 
     let volumeInMilitres = 500;
   let periodGiven = 2;
-
-formular = volumeInMilitres / periodGiven
+  let formular = volumeInMilitres / periodGiven
+    console.log(formular);
 
 // the formulae of drip is volume of the medication / time taken
 
 }
 
-drip();
-console.log(formular)
+driprate()
+
